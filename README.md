@@ -3,6 +3,8 @@ A zero-dependency browser tool that converts text into token-efficient images fo
 
 # DensePack
 
+**[Try it live](https://luigalve.github.io/DensePack/)** &middot; [View the source](https://github.com/luigalve/DensePack/blob/main/densepack.html)
+
 DensePack converts any pasted text into the smallest image an AI can still read accurately. 
 It is one HTML file with no dependencies. 
 It runs entirely in the browser and works offline. Just about anywhere static files are served, including GitHub Pages.
