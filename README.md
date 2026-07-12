@@ -13,7 +13,7 @@ or just about anywhere static files are served, (including GitHub Pages)
 I built it to cut input token costs when feeding large text to vision capable models.<br>
 Text costs roughly 1 token for every 4 characters. Images cost roughly 1 token per 750 pixels.<br> 
 <br>
-Normally, text input is much cheaper than its screenshot counterpart but, packed tightly enough,
+Normally, text input is much cheaper than its screenshot counterpart but packed tightly enough,<br>
 an image with the same text is much cheaper than the text itself - consistently by 50 to 80 percent! 
 <br>
 <br>
