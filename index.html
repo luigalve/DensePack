@@ -753,9 +753,9 @@
           <div class="meterbar">
             <div id="meterfill"></div>
           </div>
-          <div class="foot">Estimates for Fable / Opus by Anthropic:<br>
+          <div class="foot">Rough estimates only:<br>
             Text ≈ Characters ÷ 4 | Image ≈ Total Pixels ÷ 750 <br>
-            **Tokenizers vary by model.
+            **Tokenizers vary by model. Verify against your provider's pricing.
           </div>
         </div>
 
@@ -1096,8 +1096,8 @@
       if (!on) { markerclash.classList.remove("show"); return; }
       const M = nlchar.value || "¶", IND = indchar.value || "»";
       let clash = [];
-      if (raw.includes(M)) clash.push(`“${M}”`);
-      if (indmark.checked && raw.includes(IND)) clash.push(`“${IND}”`);
+      if (raw.includes(M)) clash.push(`"${M}"`);
+      if (indmark.checked && raw.includes(IND)) clash.push(`"${IND}"`);
       if (clash.length) {
         markerclash.textContent = `⚠ ${clash.join(" and ")} already appears in your text - the AI can't tell marker from content. Pick a different marker character.`;
         markerclash.classList.add("show");
@@ -1111,8 +1111,8 @@
       const bits = [];
       const M = nlchar.value || "¶", IND = indchar.value || "»";
       if (nlmark.checked) {
-        let t = `Every “${M}” marks a line break in the original text`;
-        if (indmark.checked) t += `, and each “${IND}” at the start of a line marks one indentation level (4 spaces)`;
+        let t = `Every "${M}" marks a line break in the original text`;
+        if (indmark.checked) t += `, and each "${IND}" at the start of a line marks one indentation level (4 spaces)`;
         bits.push(t);
       }
       if (colorsOn.checked) {
