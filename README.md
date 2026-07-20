@@ -26,7 +26,7 @@ Pack text into the smallest image an AI can still read. Same content, 50 to 80 p
 <br>
 <br>
 
-One HTML file. Open it in a browser and you have a packer: 
+Open it in a browser and you have a packer: 
 1. Paste text or drag a file in,
 2. pick a font and a size,
 3. watch the token estimate move,
